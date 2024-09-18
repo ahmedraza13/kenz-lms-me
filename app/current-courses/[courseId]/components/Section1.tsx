@@ -56,14 +56,14 @@ const Section1 = () => {
             <h3>Overview</h3>
             <p>
               This learning journey will introduce you to the basics of ABAP
-              programming on SAP Business Technology Platform.
+              programming.
               <h3 className="mt-4">Learning objectives</h3>
             </p>
             <p>
               After completing this learning journey, developers will have
               gained an overview of the basic properties of the ABAP programming
               language. You will discover how to apply some of the fundamental
-              programming techniques on SAP BTP, ABAP environment, and will be
+              programming techniques , ABAP environment, and will be
               able to develop a simple app with the ABAP RESTful Application
               Programming Model.
             </p>
@@ -83,7 +83,7 @@ const Section1 = () => {
                 Elementary knowledge in any modern programming language such as
                 Java, C# or Python
               </li>
-              <li>Discovering SAP Business Technology Platform Mandatory</li>
+              <li>Discovering  Business Technology Platform Mandatory</li>
             </ul>
             <button className="btn bg-white mt-3">Start Learning</button>
           </div>
