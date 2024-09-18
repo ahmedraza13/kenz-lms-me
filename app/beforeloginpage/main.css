@@ -1,0 +1,53 @@
+/* Hide the default dropdown arrow */
+.dropdown-toggle::after {
+    display: none;
+  }
+  
+  .left-side-logo {
+    margin-left: 7.5rem; /* 120px converted to rem */
+}
+
+.right-side-icons {
+    margin-right: 7.5rem; /* 120px converted to rem */
+}
+
+/* Dropdown Menu Styling */
+.custom-dropdown {
+    width: 300px; /* Custom width */
+    padding: 10px; /* Padding for inner content */
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .custom-dropdown .dropdown-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .custom-dropdown .dropdown-item {
+    font-size: 1rem;
+    padding: 8px 15px;
+    color: #007bff;
+  }
+  
+  .custom-dropdown .dropdown-item:hover {
+    background-color: #e9ecef;
+  }
+
+  .before-login-page-section-three h1{
+    color: #373A3C;
+    font-size: 30px;
+}
+  
+.before-login-page-section-three p{
+    color: #000000CC;
+    font-size: 16px;
+}
+
+.before-login-footer{
+    background-color: black;
+}

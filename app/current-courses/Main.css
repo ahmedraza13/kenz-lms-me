@@ -1,0 +1,91 @@
+* {
+  font-family: "League Spartan", sans-serif !important;
+}
+
+.courses-main {
+  position: relative; /* Important for positioning the hover card */
+  width: 20rem;
+  margin: 20px;
+  border: none !important;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Adjusted shadow */
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth hover transition */
+}
+
+.courses-main:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
+}
+
+/* Hidden by default */
+.hover-card {
+  position: absolute;
+  top: 0;
+  left: 20rem; /* Positioned on the left side of the main card */
+  width: 18rem;
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transform: translateX(20px); /* Slight offset initially */
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  pointer-events: none; /* Prevent interaction until it's visible */
+  z-index: 10;
+}
+
+.courses-main:hover .hover-card {
+  opacity: 1;
+  transform: translateX(0); /* Move into place on hover */
+  pointer-events: auto; /* Enable interaction when visible */
+}
+
+.courses-main h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #666666;
+}
+
+.courses-main p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.courses-main img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.courses-main span {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.hover-card h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hover-card p {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.hover-card ul {
+  font-size: 0.85rem;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.hover-card ul li {
+  margin-bottom: 5px;
+}

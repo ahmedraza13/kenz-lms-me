@@ -1,0 +1,84 @@
+.header {
+  width: 100%;
+  padding: 0em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5em;
+  background-color: #24232C;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  box-sizing: border-box;
+}
+.header img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  padding: 1em;
+  background-color: #24232C;
+  border-radius: 100%;
+}
+.header .rightMenuBar {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4em 1.4em;
+  gap: 0.5em;
+  border-radius: 100px;
+  background-color: #fafafa;
+}
+.header .rightMenuBar svg {
+  color: #24232C;
+}
+.header .centerMenuBar {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .centerMenuBar p {
+  padding: 0em 0.6em;
+  cursor: pointer;
+  color: #e5e6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  position: relative;
+  height: 100px;
+}
+.header .centerMenuBar p:hover {
+  text-decoration: underline;
+  text-decoration-line: #e5e6eb;
+}
+.header .centerMenuBar p .dropdownMenu-sts {
+  position: absolute;
+  top: 5em;
+  left: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fafafa;
+  width: 200px;
+}
+.header .centerMenuBar p .dropdownMenu-sts p {
+  padding: 1em;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #24232C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .centerMenuBar p .dropdownMenu-sts p:hover {
+  background-color: #e5e6eb;
+}/*# sourceMappingURL=Header.css.map */

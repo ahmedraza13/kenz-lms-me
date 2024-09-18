@@ -1,0 +1,3 @@
+api integration courses page
+api integration single course page
+api integration auth pages

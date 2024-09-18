@@ -1,0 +1,123 @@
+.footer {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1em;
+  background-color: #24232C;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1em;
+}
+.footer .first {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em;
+}
+.footer .first h2 {
+  width: 100%;
+  text-align: center;
+  color: #e5e6eb;
+  font-size: 1.8em;
+}
+.footer .first form {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 0.3em;
+  border-radius: 80px;
+}
+.footer .first form input {
+  padding: 0.5em;
+  padding-left: 2em;
+  background-color: #fafafa;
+  color: #24232C;
+  font-size: 1.2em;
+  border: 0;
+  width: 80%;
+  border-radius: 80px 0 0 80px;
+}
+.footer .first form button {
+  font-size: 1.2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.footer .second {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .second .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 3em 1em;
+}
+.footer .second .left img {
+  background-color: #24232C;
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 100%;
+}
+.footer .second .left p {
+  width: 100%;
+  text-align: left;
+  color: #e5e6eb;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+.footer .second .right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+.footer .second .right .footerList {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer .second .right .footerList h2 {
+  font-weight: bold;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-align: left;
+  padding: 0.5em;
+}
+.footer .second .right .footerList p {
+  color: #e5e6eb;
+  font-size: 1.1em;
+  text-align: left;
+  cursor: pointer;
+  padding: 0.5em;
+}
+.footer .second .right .footerList p:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=Footer.css.map */

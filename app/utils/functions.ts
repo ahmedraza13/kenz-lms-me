@@ -1,0 +1,1 @@
+export const isDynamicCoursePath = (path:string) => /^\/current-courses\/[^\/]+$/.test(path);

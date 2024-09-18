@@ -1,0 +1,185 @@
+.std-dashboard-btn{
+    position: absolute;
+    top: 130px;
+    right: 60px;
+    background-color: #010b14 !important;
+    color: #f5f6f7 !important;
+    border: 1px solid #112231 ;
+}
+
+.course-details-section-one {
+    background-color: #1a2733;
+    padding-bottom: 80px;
+}
+
+.course-details-section-one .container .menu ul li {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.course-details-section-one .course-details-learning-journey-btn {
+    background-color: #223548;
+    z-index: 10;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}
+
+.course-details-section-one h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.course-details-section-one .course-details-features {
+    background-color: #223548;
+    z-index: 10;
+}
+
+.course-details-section-one .course-details-features li {
+    font-size: 20px;
+    text-align: center;
+}
+
+.course-details-section-one .course-details-video-right p {
+    color: white;
+}
+
+.course-details-section-one .course-details-video-right h3 {
+    color: white;
+}
+
+.course-details-section-one .course-details-video-right {
+    margin-top: 160px;
+}
+
+.course-details-benefits {
+    color: #1a2733;
+    font-size: 18px;
+}
+
+.course-details-benefits li {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.course-details-benefits button {
+    border-radius: 50px;
+}
+
+.course-details-section-three {
+    background-color: #f5f6f7;
+    margin-top: 40px;
+}
+
+.course-details-section-three h1 {
+    font-size: 30px;
+}
+
+.course-details-section-three h3 {
+    font-size: 20px;
+    color: #475e75;
+}
+
+.course-details-section-three h4 {
+    color: #475e75;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.course-details-section-three {
+    padding: 2rem 0;
+    /* Adjust padding as needed */
+}
+
+.course-details-section-three .d-flex {
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the start (top) */
+}
+
+.course-details-section-three .no-gap {
+    margin-right: 0;
+    /* No gap between image and text */
+}
+
+.course-details-section-three .text-content {
+    margin-left: 0;
+    /* No gap between text and image */
+}
+
+.course-details-section-three img {
+    max-width: 100%;
+    /* Ensure image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.course-details-section-three h1,
+.course-details-section-three h3 {
+    margin-left: 20px;
+    /* Remove default margins */
+}
+
+.accordion-height .accordion-body {
+    min-height: 200px;
+    /* Adjust this value as needed */
+}
+
+.accordion-item {
+    border: none;
+    /* Optional: Remove border if not needed */
+    margin-bottom: 1rem;
+    /* Adjust the value to control the gap */
+}
+
+.accordion-button {
+    height: 100px;
+    border-radius: 0;
+    /* Optional: Adjust border radius if needed */
+}
+
+.live-session-cards {
+    background-color: #f5f6f7;
+}
+
+.live-session-cards h5 {
+    font-size: 14px;
+    color: #475e75;
+}
+
+.live-session-cards h1 {
+    font-size: 20px;
+    color: #223548;
+}
+
+.live-session-cards p {
+    color: #475e75;
+}
+
+.live-session-cards button {
+    background-color: #f5f6f7;
+    color: #223548;
+}
+
+.live-session-cards .card {
+    border-radius: 20px;
+    position: relative; /* Ensure that the ::before element is positioned relative to the card */
+    padding-left: 15px; /* Adjust padding to move content away from the left */
+}
+
+.live-session-cards .card::before {
+    content: '';
+    position: absolute;
+    left: 0; 
+    top: 20px; /* Adjust the top position for spacing */
+    width: 5px; /* Thickness of the pink line */
+    height: 50px; /* Height of the pink line */
+    background-color: #FEB3AE; /* Color of the line */
+    border-radius: 10px; /* Optional: gives a rounded edge to the line */
+}
+
+#related-live-session-heading{
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+}
