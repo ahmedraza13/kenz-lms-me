@@ -1004,7 +1004,7 @@ function ProfilePage() {
                                 className="form-check-input"
                                 type="checkbox"
                                 id="changesMade"
-                                defaultChecked=""
+                                // defaultChecked=""
                               />
                               <label
                                 className="form-check-label"
@@ -1018,7 +1018,7 @@ function ProfilePage() {
                                 className="form-check-input"
                                 type="checkbox"
                                 id="newProducts"
-                                defaultChecked=""
+                                // defaultChecked=""
                               />
                               <label
                                 className="form-check-label"
@@ -1045,8 +1045,8 @@ function ProfilePage() {
                                 className="form-check-input"
                                 type="checkbox"
                                 id="securityNotify"
-                                defaultChecked=""
-                                disabled=""
+                                // defaultChecked=""
+                                // disabled=""
                               />
                               <label
                                 className="form-check-label"
@@ -1139,5 +1139,4 @@ function ProfilePage() {
     </>
   );
 }
-
 export default ProfilePage;

@@ -16,6 +16,7 @@ import { IoMdArrowForward } from "react-icons/io";
 import { useSelector } from "react-redux"
 import { useRouter } from "next/navigation";
 import Image from "next/image"
+import Link from "next/link";
 
 
 const RightMenuBar = ({ options }: any) => {
@@ -169,12 +170,31 @@ const Header = () => {
       <div className="header">
         <Image src={logo} alt="logo" width={100} height={100}  />
         <CenterMenuBar options={centerMenuBarOptions} />
-        {
+        {/* {
           currentUser?.isLogin ?
             <RightMenuBar options={rightMenuBarOptions} />
             :
             <Button style={{ backgroundColor: "#fefefe", paddingLeft: "4em", paddingRight: "4em" }} onClick={() => router.push("/auth")}>User</Button>
-        }
+        } */}
+        <div className="dropdown">
+            <i
+              className="bi bi-person-lines-fill dropdown-toggle me-4"
+              style={{ color: 'white', fontSize: '2rem', cursor: 'pointer' }}
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            ></i>
+            <ul className="dropdown-menu custom-dropdown dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+              <li className="dropdown-header">
+                <span>Welcome to Kenz Academy</span>
+              </li>
+              <li>
+                <Link className="dropdown-item" href="/home">
+                  Profile
+                </Link>
+              </li>
+            </ul>
+          </div>
       </div>
     </>
   )
